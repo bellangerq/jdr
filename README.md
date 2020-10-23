@@ -1,4 +1,4 @@
-# Maps
+# Maps 🗻
 
 Maps of fantasy worlds.
 
@@ -6,10 +6,10 @@ Maps of fantasy worlds.
 
 Run local server:
 ```
-npm start
+npm run start
 ```
 
 Build website:
 ```
-npm build
+npm run build
 ```
