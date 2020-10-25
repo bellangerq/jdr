@@ -5,26 +5,7 @@
 	</head>
 	<body>
 		<div class="site">
-			{% include 'layouts/header.njk' %}
-			<main class="site-main">
-				<ul class="posts">
-					{% for post in collections.posts %}
-					<li class="post">
-						<h2 class="post-title">{{ post.data.title }}</h2>
-						<span class="post-date">Publié le <time datetime="{{ page.date }}">{{ post.data.publishedAt }}</time></span>
-
-						{% if post.data.image %}
-						<a class="post-frame" href="{{ post.data.image }}">
-							<img loading="lazy" class="post-image" src="{{ post.data.image }}" alt="{{ post.data.alt }} (cliquer pour agrandir)" />
-						</a>
-						{% endif %}
-
-						<div class="post-description">{{ post.templateContent | safe }}</div>
-
-					</li>
-					{% endfor %}
-				</ul>
-			</main>
+			{{ content | safe }}
 			{% include 'layouts/footer.njk' %}
 		</div>
 	</body>

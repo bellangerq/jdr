@@ -1,4 +1,4 @@
 ---
 title: 'Accueil'
-layout: 'layouts/base.njk'
+layout: 'layouts/home.njk'
 ---

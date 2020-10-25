@@ -1,0 +1,4 @@
+{
+	"tags": "article",
+	"layout": "layouts/article.njk"
+}
