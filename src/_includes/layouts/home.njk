@@ -7,17 +7,15 @@ layout: 'layouts/base.njk'
 <main class="site-main">
   <ul class="articles">
     {% for article in collections.article %}
-    <li class="article">
-      <article>
+    <li>
+      <article class="article">
         <h2 class="article-title">
           <a href="{{ article.url }}">{{ article.data.title }}</a>
         </h2>
         <span class="article-date">Article publié le <time datetime="{{ publishedAt }}">{{ article.data.publishedAt }}</time></span>
 
         {% if article.data.featuredImage %}
-        <div class="article-frame">
           <img loading="lazy" class="article-image" src="{{ article.data.featuredImage }}" alt="{{ article.data.alt }}" />
-        </div>
         {% endif %}
       </article>
 
