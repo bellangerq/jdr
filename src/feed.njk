@@ -1,0 +1,39 @@
+---json
+{
+  "permalink": "feed.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Maps, cartes de mondes fantastiques",
+    "subtitle": "Je dessine des cartes de mondes fantastiques à base de forêts, de montagnes, de marécages ou de cavernes... Approchez du feu, prenez à boire et installez-vous confortablement.",
+    "url": "https://maps.quentin-bellanger.com/",
+    "feedUrl": "https://maps.quentin-bellanger.com/feed.xml",
+    "author": {
+      "name": "Quentin Bellanger",
+      "email": "hello@quentin-bellanger.com"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ metadata.feedUrl }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  <updated>{{ collections.article | rssLastUpdatedDate }}</updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for article in collections.article %}
+  {% set absoluteArticleUrl %}{{ article.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ article.data.title }}</title>
+    <link href="{{ absoluteArticleUrl }}"/>
+    <updated>{{ article.date | rssDate }}</updated>
+    <id>{{ absoluteArticleUrl }}</id>
+    <content type="html">{{ article.templateContent | htmlToAbsoluteUrls(absoluteArticleUrl) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

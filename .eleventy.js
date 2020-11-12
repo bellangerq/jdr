@@ -1,6 +1,7 @@
 const CleanCSS = require('clean-css')
 const markdownIt = require('markdown-it')
 const implicitFigures = require('markdown-it-implicit-figures')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 const markdownItOptions = {
 	html: true
@@ -15,6 +16,8 @@ module.exports = config => {
 	})
 
 	config.setLibrary('md', markdownLib)
+
+	config.addPlugin(pluginRss)
 
 	return {
 		markdownTemplateEngine: 'njk',
