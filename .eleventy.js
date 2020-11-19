@@ -19,6 +19,11 @@ module.exports = config => {
 
 	config.addPlugin(pluginRss)
 
+	// TODO: handle articles dates
+	config.addCollection('articles', collection => {
+		return collection.getFilteredByGlob('./src/articles/*.md').reverse()
+	})
+
 	return {
 		markdownTemplateEngine: 'njk',
 		dataTemplateEngine: 'njk',
