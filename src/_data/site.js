@@ -1,3 +1,3 @@
 module.exports = {
-	description: 'Maps, cartes de mondes fantastiques'
+  description: 'Histoires de jeu de rôle'
 }
