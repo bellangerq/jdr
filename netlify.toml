@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/articles/edurion/"
+  to = "https://jdr.quentin-bellanger.com/articles/edurion/"
+  status = 301
+
+[[redirects]]
+  from = "/articles/odeth/"
+  to = "https://jdr.quentin-bellanger.com/articles/odeth/"
+  status = 301
