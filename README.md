@@ -1,6 +1,6 @@
-# Maps 🗻
+# JDR 🗻
 
-Maps of fantasy worlds.
+Tales of a beginner RPG dungeon master.
 
 ## Development
 
