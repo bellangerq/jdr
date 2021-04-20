@@ -48,7 +48,7 @@ Déjà, je génère systématiquement un sommaire en haut de chaque page "collec
 
 Quand c'est nécessaire, j'inclus des liens entre les pages, ça me permet si besoin (même si je m'en sers très peu comme je le dis plus bas) de jongler entre les pages : si [nom du PNJ] travaille à [nom de l'auberge], je vais inclure un lien vers l'auberge dans la description du PNJ.
 
-Pour les pages collection, j'inclus quand je peux des "embed" (des pages web embarquées) via la commande `/embed` dans Notion du site aidedd.org. Comme ça, j'ai directement les fiches de monstres, de sorts, d'objets au lieu de tout réécrire.
+Pour les pages collection, j'inclus quand je peux des "embed" (des pages web embarquées) via la commande `/embed` dans Notion du [site aidedd.org](https://aidedd.org). Comme ça, j'ai directement les fiches de monstres, de sorts, d'objets au lieu de tout réécrire.
 
 ![Embed de la fiche de monstre du Kenku.](/images/preparation-campagne-dnd-notion-5.png)
 
