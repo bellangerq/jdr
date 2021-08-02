@@ -6,6 +6,8 @@ layout: 'layouts/base.njk'
 
 <main class="site-main">
   <article class="article-body">
+    {% image featuredImage, alt %}
+
     {{ content | safe }}
   </article>
 </main>

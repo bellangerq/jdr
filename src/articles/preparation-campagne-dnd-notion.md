@@ -1,11 +1,9 @@
 ---
 title: "Préparer une campagne de Donjons & Dragons sur Notion"
-featuredImage: "/images/preparation-campagne-dnd-notion-1.jpg"
+featuredImage: "preparation-campagne-dnd-notion-1.jpg"
 alt: "Mosaïque d'élément de ma campagne Donjons et Dragons sur Notion avec une liste de personnages, une photo d'un kenku, une potion de soins..."
 publishedAt: "20 avril 2021"
 ---
-
-![{{ alt }}](/images/preparation-campagne-dnd-notion-1.jpg)
 
 Pour la préparation de ma première campagne de Donjons & Dragons, j'ai utilisé l'outil en ligne [Notion](https://notion.so). Je me suis dis que ça pourrait être intéressant de partager comment je m'en sers pour prendre des notes, préparer mes sessions et documenter mes parties..
 
@@ -20,13 +18,13 @@ Dans mon dossier de JDR (Jeu de rôle) sur Notion, je créé une page par campag
 Ensuite, la campagne contient les pages suivantes :
 
 - **Session 0** : ce sont toutes les informations relatives à l'avant-campagne. Cela peut concerner des éléments très "in-game" comme les races et classes disponibles ou la création de personnages mais aussi des éléments "hors game" comme la durée des sessions ou le moyen de communication utiliser pour se parler. La meilleure ressource que j'ai trouvé sur la session 0 était celle-ci : [Session-0 Topic Checklist and Guide
-(en anglais)](https://www.reddit.com/r/dndnext/comments/601awb/session0_topic_checklist_and_guide/).
+  (en anglais)](https://www.reddit.com/r/dndnext/comments/601awb/session0_topic_checklist_and_guide/).
 - **Notes MJ** : pas de secret, ce sont les notes MJ prises au cours des sessions. J'y note des éléments comme : "[personnage] a pris l'artefact magique dans son sac", "L'épée de [personnage] est abîmée"...
-- **Trame** : c'est *LA* page principale. Celle que j'ai sous les yeux 90% du temps. Je note tout le déroulé de la campagne avec la quête principale, quelques choix et possibilités secondaires et les rencontres, récompenses et points d'intérêt.
+- **Trame** : c'est _LA_ page principale. Celle que j'ai sous les yeux 90% du temps. Je note tout le déroulé de la campagne avec la quête principale, quelques choix et possibilités secondaires et les rencontres, récompenses et points d'intérêt.
 - **Idées** : c'est la page fourre-tout d'idées qui me passent par la tête et qui peuvent m'inspirer pour la préparation des sessions.
 - **Univers** : la documentation sur l'univers (si c'est un univers fait maison) avec des cartes, l'histoire, les populations, les religions...
 
-![Aperçu de la liste des sous pages de ma campagne dans Notion, qui sont listées avant. Chaque page a un emoji associé.](/images/preparation-campagne-dnd-notion-2.png)
+{% image "preparation-campagne-dnd-notion-2.png", "Aperçu de la liste des sous pages de ma campagne dans Notion, qui sont listées avant. Chaque page a un emoji associé." %}
 
 Dernière partie, j'ai des pages "collection" ou je regroupe tous les éléments dont j'ai besoin appartenant à une même catégorie. Par catégorie, j'entends par exemple :
 
@@ -40,7 +38,7 @@ Je ne fais pas des sous-pages par élément, sinon c'est vite long de naviguer e
 
 Un exemple avec la page des PNJ (le petit emoji sur chaque PNJ me rappelle rapidement ce qui le définit) :
 
-![Description en quelques lignes de 4 PNJ de ma campagne sur la page "collection" des PNJ : Lola, Ayden, Yasi et Chopper.](/images/preparation-campagne-dnd-notion-3.png)
+{% image "preparation-campagne-dnd-notion-3.png", "Description en quelques lignes de 4 PNJ de ma campagne sur la page collection des PNJ : Lola, Ayden, Yasi et Chopper." %}
 
 ## Contenus et mise en forme
 
@@ -50,7 +48,7 @@ Quand c'est nécessaire, j'inclus des liens entre les pages, ça me permet si be
 
 Pour les pages collection, j'inclus quand je peux des "embed" (des pages web embarquées) via la commande `/embed` dans Notion du [site aidedd.org](https://aidedd.org). Comme ça, j'ai directement les fiches de monstres, de sorts, d'objets au lieu de tout réécrire.
 
-![Embed de la fiche de monstre du Kenku.](/images/preparation-campagne-dnd-notion-5.png)
+{% image "preparation-campagne-dnd-notion-5.png", "Embed de la fiche de monstre du Kenku." %}
 
 Concernant la trame, j'essaye de ne pas trop rédiger mes phrases mais plutôt de mettre des mots-clef ou des listes à puces. Spoiler alert : j'ai beaucoup de mal à y arriver ! La trame est découpée en actes (grosses étapes de la campagne) et en sessions pour mieux m'y retrouver.
 
@@ -61,7 +59,7 @@ Enfin, j'utilise des mise en avant sur certaines parties (des "callout" dans Not
 - Jaune pour les récompenses.
 - Rose pour les interactions personnalisées (exemple : un personnage rencontre un PNJ lié à son background.)
 
-![Les 4 différents callouts utilisés avec des textes d'exemple dans l'ordre indiqué plus haut.](/images/preparation-campagne-dnd-notion-4.png)
+{% image "preparation-campagne-dnd-notion-4.png", "Les 4 différents callouts utilisés avec des textes d'exemple dans l'ordre indiqué plus haut." %}
 
 ## Utilisation pendant la partie
 

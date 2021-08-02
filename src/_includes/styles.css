@@ -13,6 +13,7 @@ ul {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 /* Variables */
@@ -28,7 +29,7 @@ img {
 .site {
   background-color: var(--color-light);
   line-height: 1.5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.5rem;
   min-height: 100vh;
   display: flex;

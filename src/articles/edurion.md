@@ -1,17 +1,15 @@
 ---
-title: 'Edurion : première carte grand format'
-featuredImage: '/images/edurion-1.jpg'
+title: "Edurion : première carte grand format"
+featuredImage: "edurion-1.jpg"
 alt: "Carte d'Edurion avec en premier plan une rose des vents. Le fond montre la carte avec un effet flouté sur les montagnes et une grosse forêt"
-publishedAt: '19 novembre 2020'
+publishedAt: "19 novembre 2020"
 ---
-
-![{{ alt }}](/images/edurion-1.jpg)
 
 Nouvel article pour une nouvelle carte : je vous présente **Edurion**.
 
 Edurion, c'est une carte plus détaillée que la précédente dans le sens où il y a plus de diversité dans les sites et les environnements (citadelle, village, ruines...) et que du coup c'est plus simple d'imaginer une histoire par dessus. Ce qui la rend potentiellement jouable dans une partie de jeu de rôle ! Voici la carte dans son ensemble :
 
-![Vue d'ensemble de la carte Edurion](/images/edurion-3.jpg)
+{% image "edurion-3.jpg", "Vue d'ensemble de la carte Edurion" %}
 
 ## Réalisation
 
@@ -19,7 +17,7 @@ Je l'ai réalisée cette fois sur du papier Canson et en format A3, ce qui laiss
 
 Je n'aurai d'ailleurs pas tenté de faire directement à l'encre si cela avait été ma première carte. Je trouve que l'assurance vient assez rapidement, on se sent vite plus à l'aise quand on pratique régulièrement et qu'on s'approprie les différents styles des éléments. Alors bien sûr pour cette carte, j'ai une autre feuille A3 remplie exclusivement dédiée au brouillon où j'ai parfois testé 30 fois la même chose jusqu'à avoir le meilleur rendu.
 
-![Aperçu d'un brouillon sur papier Canson avec plein d'itération de dessins de lieux (villes, tours, portes...)](/images/edurion-2.jpg)
+{% image "edurion-2.jpg", "Aperçu d'un brouillon sur papier Canson avec plein d'itération de dessins de lieux (villes, tours, portes...)" %}
 
 Un point où je sens que je dois encore pas mal progresser c'est la conception de la carte : savoir où vont se situer les villes, où mettre les montagnes et les forêts etc... Pour l'instant, je le fais beaucoup à l'instinct alors que je devrais sûrement poser les fondations bien avant de dessiner pour plus de cohérence et aussi pour être plus serein.
 
@@ -39,10 +37,10 @@ Et ce que j'aime moins :
 
 Et pour finir, quelques photos supplémentaires. Dites moi ce que vous en pensez (ce que vous aimez ou n'aimez pas) sur [Twitter](https://twitter.com/bellanger_q). À la prochaine !
 
-![Partie nord-ouest de la carte d'Edurion avec une forêt, un lac et un petit village appelé Lemi](/images/edurion-4.jpg)
+{% image "edurion-4.jpg", "Partie nord-ouest de la carte d'Edurion avec une forêt, un lac et un petit village appelé Lemi" %}
 
-![Partie sud-ouest de la carte d'Edurion avec un désert et des ruines, le tout bordé par les montagnes](/images/edurion-5.jpg)
+{% image "edurion-5.jpg", "Partie sud-ouest de la carte d'Edurion avec un désert et des ruines, le tout bordé par les montagnes" %}
 
-![Rose des vents placée dasn l'océan](/images/edurion-6.jpg)
+{% image "edurion-6.jpg", "Rose des vents placée dasn l'océan" %}
 
-![Partie nord-est avec une citadelle, un petit bois et une tour de magicien](/images/edurion-7.jpg)
+{% image "edurion-7.jpg", "Partie nord-est avec une citadelle, un petit bois et une tour de magicien" %}

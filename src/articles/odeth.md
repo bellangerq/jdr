@@ -1,11 +1,9 @@
 ---
-title: 'Odeth, première du nom'
-featuredImage: '/images/odeth-1.jpg'
+title: "Odeth, première du nom"
+featuredImage: "odeth-1.jpg"
 alt: "Carte d'Odeth avec un focus sur le nom de la carte et les continents dans le fond"
-publishedAt: '21 octobre 2020'
+publishedAt: "21 octobre 2020"
 ---
-
-![{{ alt }}](/images/odeth-1.jpg)
 
 Ça y est, premier article sur ce blog fraîchement créé ! Je me suis récemment découvert une nouvelle passion : dessiner des cartes de mondes fantastiques et <span lang="en">spoiler alert</span>, c'est trop bien. En plus, c'est le [#inktober](https://twitter.com/search?q=%23inktober2020&src=typeahead_click) du coup ça tombe bien, je passe pour un artiste !
 
@@ -23,16 +21,16 @@ J'ai résummé très brièvement les différentes étapes du process dans [un th
 
 Et voilà donc le résultat de ma première création : **Odeth**. Alors il y a eu du brouillon à côté et pas mal de petits ratés mais je suis assez content du résultat final, surtout quand on sait que c'est fait exclusivement au BIC.
 
-![Carte carrée du monde d'Odeth vu du dessus. Il y a 3 continents et le nom de la carte. L'ensemble est entouré d'une bordure.](/images/odeth-2.jpg)
+{% image 'odeth-2.jpg', "Carte carrée du monde d'Odeth vu du dessus. Il y a 3 continents et le nom de la carte. L'ensemble est entouré d'une bordure." %}
 
 Bien sûr les styles des montagnes ou des forêts (enfin de tout en fait) sont intégralement copiés des vidéos de Nate. J'ai reproduit à l'identique et je n'ai pas voulu faire une première carte trop ambitieuse histoire de rester simple. Et ça évite aussi les chances de me planter !
 
 Pour vos beaux yeux, quelques photos supplémentaires plus détaillées :
 
-![Zoom sur le nord ouest de la carte sur le continent de Utia avec des montagnes et des forêts ainsi qu'une capitale.](/images/odeth-3.jpg)
+{% image 'odeth-3.jpg', "Zoom sur le nord ouest de la carte sur le continent de Utia avec des montagnes et des forêts ainsi qu'une capitale." %}
 
-![Zoom sur le sud de la carte avec les continents Utia et Agox.](/images/odeth-4.jpg)
+{% image 'odeth-4.jpg', "Zoom sur le sud de la carte avec les continents Utia et Agox." %}
 
-![Zoom sur le nord est de la carte avec l'île de Suhen et le nord déssertique de Agox.](/images/odeth-5.jpg)
+{% image 'odeth-5.jpg', "Zoom sur le nord est de la carte avec l'île de Suhen et le nord déssertique de Agox." %}
 
 Malheureusement, il n'y a pas (encore) la possibilité de commenter sur ce blog, mais si vous avez des questions ou des conseils à me donner, [pinguez-moi sur Twitter (@bellanger_q)](https://twitter.com/bellanger_q). Je vous laisse, je vais dessiner des grottes, à la prochaine !
