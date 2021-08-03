@@ -2,7 +2,7 @@
 title: "Préparer une campagne de Donjons & Dragons sur Notion"
 featuredImage: "preparation-campagne-dnd-notion-1.jpg"
 alt: "Mosaïque d'élément de ma campagne Donjons et Dragons sur Notion avec une liste de personnages, une photo d'un kenku, une potion de soins..."
-publishedAt: "20 avril 2021"
+publishedAt: 2021-04-20
 ---
 
 Pour la préparation de ma première campagne de Donjons & Dragons, j'ai utilisé l'outil en ligne [Notion](https://notion.so). Je me suis dis que ça pourrait être intéressant de partager comment je m'en sers pour prendre des notes, préparer mes sessions et documenter mes parties..

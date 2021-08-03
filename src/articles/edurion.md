@@ -2,7 +2,7 @@
 title: "Edurion : première carte grand format"
 featuredImage: "edurion-1.jpg"
 alt: "Carte d'Edurion avec en premier plan une rose des vents. Le fond montre la carte avec un effet flouté sur les montagnes et une grosse forêt"
-publishedAt: "19 novembre 2020"
+publishedAt: 2020-11-19
 ---
 
 Nouvel article pour une nouvelle carte : je vous présente **Edurion**.

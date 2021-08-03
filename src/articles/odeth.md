@@ -2,7 +2,7 @@
 title: "Odeth, première du nom"
 featuredImage: "odeth-1.jpg"
 alt: "Carte d'Odeth avec un focus sur le nom de la carte et les continents dans le fond"
-publishedAt: "21 octobre 2020"
+publishedAt: 2020-10-21
 ---
 
 Ça y est, premier article sur ce blog fraîchement créé ! Je me suis récemment découvert une nouvelle passion : dessiner des cartes de mondes fantastiques et <span lang="en">spoiler alert</span>, c'est trop bien. En plus, c'est le [#inktober](https://twitter.com/search?q=%23inktober2020&src=typeahead_click) du coup ça tombe bien, je passe pour un artiste !

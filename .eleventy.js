@@ -19,7 +19,7 @@ const markdownLib = markdownIt(markdownItOptions).use(implicitFigures);
  * @returns {string} Generated HTML code
  */
 async function imageShortcode(slug, alt, className = "", sizes = []) {
-  let metadata = await Image(`./src/images/${slug}`, {
+  const metadata = await Image(`./src/images/${slug}`, {
     outputDir: "./dist/images",
     useCache: false,
     urlPath: "/images/",
@@ -33,7 +33,7 @@ async function imageShortcode(slug, alt, className = "", sizes = []) {
     },
   });
 
-  let imageAttributes = {
+  const imageAttributes = {
     alt,
     sizes,
     class: className,
@@ -49,13 +49,29 @@ module.exports = (config) => {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  /**
+   * Human readable date
+   */
+  config.addFilter("date", (date) => {
+    return new Intl.DateTimeFormat("fr-FR", {
+      dateStyle: "long",
+    }).format(date);
+  });
+
   config.setLibrary("md", markdownLib);
 
   config.addPlugin(pluginRss);
 
-  // TODO: handle articles dates
+  /**
+   * Return articles sorted by date
+   */
   config.addCollection("articles", (collection) => {
-    return collection.getFilteredByGlob("./src/articles/*.md").reverse();
+    return collection
+      .getFilteredByGlob("./src/articles/*.md")
+      .reverse()
+      .sort((a, b) => {
+        return b.data.publishedAt - a.data.publishedAt;
+      });
   });
 
   config.addNunjucksAsyncShortcode("image", imageShortcode);
