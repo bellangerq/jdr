@@ -76,6 +76,12 @@ module.exports = (config) => {
 
   config.addNunjucksAsyncShortcode("image", imageShortcode);
 
+  /**
+   * Copy social images
+   */
+  config.addPassthroughCopy("./src/images/favicon.png");
+  config.addPassthroughCopy("./src/images/og.jpg");
+
   return {
     markdownTemplateEngine: "njk",
     dataTemplateEngine: "njk",
