@@ -26,14 +26,20 @@ img {
 }
 
 /* Global */
-.site {
+body {
   background-color: var(--color-light);
+}
+
+.site {
   line-height: 1.5;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.5rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 6rem 1rem 2rem;
 }
 
 .site > * + * {
@@ -59,9 +65,6 @@ a:focus {
 
 /* Header */
 .header {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 2rem 1rem;
   text-align: center;
 }
 
@@ -82,11 +85,6 @@ a:focus {
 }
 
 /* Main */
-.site-main {
-  margin: 0 auto 2rem;
-  max-width: 50rem;
-  padding: 1rem;
-}
 
 /* Articles list */
 .articles > * + * {
@@ -140,8 +138,6 @@ a:focus {
 .footer {
   border-top: 1px solid var(--color-dark);
   font-size: 1.2rem;
-  margin: auto auto 0;
-  max-width: 800px;
-  padding: 2rem 1rem;
+  padding-top: 2rem;
   text-align: center;
 }
