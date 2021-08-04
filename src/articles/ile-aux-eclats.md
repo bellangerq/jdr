@@ -1,5 +1,5 @@
 ---
-title: "L'île au éclats"
+title: "L'île aux éclats"
 featuredImage: "ile-aux-eclats-1.jpg"
 alt: "Carte fantastique en noir et blanc intitulée L'ile aux éclats avec 2 crayons sur le côté. Elle représente une île en forme de baleine entourée par de l'eau."
 publishedAt: 2021-08-05
@@ -15,7 +15,7 @@ Sur cette carte j'ai appris et pris en compte comment la tectonique des plaques 
 
 {% image 'ile-aux-eclats-3.jpg', "Zoome sur la partie est de la carte avec quelques villes et une forêt entourant des montagnes." %}
 
-C'est une carte au petit format pour permettre de faire du worldbuilding assez facilement sans avoir à imaginer tout un univers. Simplement une île, quelques villes et villages, un panthéon restreint et une histoire pas trop complexe. Et voilà de quoi organiser quelques sessions de jeu autour !
+C'est une carte au petit format ce qui va me permettre de faire du worldbuilding assez facilement sans avoir à imaginer tout un univers. Simplement une île, quelques villes et villages, un panthéon restreint et une histoire pas trop complexe. Et voilà de quoi organiser quelques sessions de jeu autour !
 
 {% image 'ile-aux-eclats-2.jpg', "Zoom sur l'intitulé de la carte en bas à droite : L'ile aux éclats. On aperçoit l'île dans le fond." %}
 
